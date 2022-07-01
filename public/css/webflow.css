@@ -1808,3 +1808,10 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+@media print {
+
+        html,
+         body {
+        display: none;
+            }
+        }
